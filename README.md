@@ -1,29 +1,29 @@
-SVM Image Classification for Cats vs. Dogs
+## SVM Image Classification for Cats vs. Dogs
 
 
-Data Collection:
+# Data Collection:
 The project begins with a dataset of labeled cat and dog images from Kaggle. This dataset serves as the foundation for training and evaluating the Support Vector Machine (SVM) model.
 
-Feature Extraction:
+# Feature Extraction:
 Since SVMs cannot directly process images, features must be extracted. This can involve techniques like color histograms, edge detection, or activations from a pre-trained convolutional neural network (CNN). These features represent the important aspects of the images that the SVM will use for classification.
 
-Model Training:
+# Model Training:
 The extracted features and their corresponding labels (cat or dog) are fed into the SVM model for training. The SVM learns to identify the most significant features that distinguish cats from dogs by finding the optimal decision boundary between the two classes.
 
-Classification:
+# Classification:
 Once trained, the SVM model can classify new, unseen images. The model uses the extracted features from these new images to predict whether they are cats or dogs based on the learned decision boundary.
 
-Evaluation:
+# Evaluation:
 The model's performance is evaluated using a separate test dataset to assess its accuracy and ability to generalize to new data.
 
-Tools and Libraries:
+# Tools and Libraries:
 The project utilizes several tools and libraries to facilitate the classification process:
 
-Programming Language:
+# Programming Language:
 
-Python: Chosen for its extensive machine learning libraries and ease of use.
+# Python: Chosen for its extensive machine learning libraries and ease of use.
 
-Libraries:
+# Libraries:
 
 Scikit-learn: Provides the SVM algorithm and functionalities for data loading, preprocessing, model training, evaluation, and prediction.
 OpenCV or Pillow (Optional): For loading, manipulating, and extracting features from images.
