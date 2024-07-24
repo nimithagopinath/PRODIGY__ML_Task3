@@ -21,7 +21,7 @@ The project utilizes several tools and libraries to facilitate the classificatio
 
 # Programming Language:
 
-# Python: Chosen for its extensive machine learning libraries and ease of use.
+ Python: Chosen for its extensive machine learning libraries and ease of use.
 
 # Libraries:
 
